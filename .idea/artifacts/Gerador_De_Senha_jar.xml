@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Gerador_De_Senha:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Gerador_De_Senha_jar</output-path>
+    <root id="archive" name="Gerador_De_Senha.jar">
+      <element id="module-output" name="Gerador_De_Senha" />
+    </root>
+  </artifact>
+</component>
