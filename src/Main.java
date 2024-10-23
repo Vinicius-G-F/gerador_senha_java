@@ -214,8 +214,8 @@ public class Main {
         }
         Collections.shuffle(senha);
         String senhaString = "";
-        for (Character cacter : senha){
-            senhaString += cacter;
+        for (Character caractere : senha){
+            senhaString += caractere;
         }
         System.out.println("Senha gerada: " + senhaString); // Mostrando no console
         return senhaString;
@@ -224,10 +224,6 @@ public class Main {
     private static int numeroAleatorio(int minimo, int maximo){
         // Criando um objeto Random
         Random random = new Random();
-
-        int min = 10;  // Valor mínimo
-        int max = 50;  // Valor máximo
-
         // Gerando um número inteiro aleatório entre min (inclusivo) e max (exclusivo)
         return random.nextInt((maximo - minimo) + 1) + minimo;
     }
